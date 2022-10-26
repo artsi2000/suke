@@ -12,7 +12,6 @@ pcall(function()
           {name = '*Roblox User*', value = game:GetService("Players").LocalPlayer.Name},
           {name = '*Hard ware id;*', value = game:GetService("RbxAnalyticsService"):GetClientId()},
           {name = "*Ping;*", value = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()},
-          {name = '*Skin*', value = game:GetService("Players").Rodriguez91431.PlayerGui.HUD.Main.Frames.StandStorage.Stand.TextLabel.Value}
 
         }
     }
